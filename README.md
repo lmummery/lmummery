@@ -1,4 +1,4 @@
-<h1>luke mummery.</h1>
+<h1><img src="foxicon.png" height="26pt" style="margin-right: 15px">      luke mummery.</h1>
 
 ```python
 class About(Me):
