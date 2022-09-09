@@ -4,17 +4,40 @@
 
 ```python
 class About(Me):
-  def getWork() -> list[dict]:
-    return [
-      {
-        company: "Jam Coding Medway",
-        position: "Code Coach"
-      },
-      {
-        company: "Goldsmiths, University of London",
-        position: ["Student", "Teaching Assistant"]
-      }
-    ]
+	def getWork(self) -> list[dict]:
+		return [
+			{
+				"company": "Jam Coding Medway",
+				"position": "Code Coach"
+			},
+			{
+				"company": "Goldsmiths, University of London",
+				"position": ["Student", "Teaching Assistant"]
+			}
+		]
+	
+	def getDegree(self) -> dict:
+		return {
+			"title": "BSc (Hons) Computer Science",
+			"university": "Goldsmiths, University of London",
+			"graduating": 2023
+		}
+	
+	def getKnowledge(self) -> list[str]:
+		return [
+			"Python",
+			"JavaScript",
+			"Java",
+			"C#",
+			"HTML",
+			"Pug",
+			"CSS",
+			"SASS",
+			"SQL"
+		]
+	
+	def getGoal(self) -> str:
+		return "To bring more Computing to the classroom"
 ```
 
 <!---
