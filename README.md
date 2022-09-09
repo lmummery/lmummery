@@ -38,6 +38,7 @@ class About(Me):
 	
 	def getGoal(self) -> str:
 		return "To bring more Computing to the classroom"
+		
 ```
 
 <!---
