@@ -1,9 +1,11 @@
-- 👋 Hi, I’m @lmummery
-- 👀 I’m interested in education
-- 🌱 I’m currently learning node.js, Express and Java
+<h1>luke mummery.</h1>
 
 ```python
 class About(Me):
+	def __init__(self) -> None:
+		self.name = "Luke Mummery"
+		self.pronouns = "they / them"
+
 	def getWork(self) -> list[dict]:
 		return [
 			{
@@ -39,6 +41,8 @@ class About(Me):
 	def getGoal(self) -> str:
 		return "To bring more Computing to the classroom"
 ```
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lmummery)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 lmummery/lmummery is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
