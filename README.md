@@ -18,12 +18,19 @@ class About(Me):
 			}
 		]
 	
-	def getDegree(self) -> dict:
-		return {
-			"title": "BSc (Hons) Computer Science",
-			"university": "Goldsmiths, University of London",
-			"graduating": 2023
-		}
+	def getQualifications(self) -> list[dict]:
+		return [
+			{
+				"title": "BSc (Hons) Computer Science",
+				"university": "Goldsmiths, University of London",
+				"graduating": 2023
+			},
+			{
+				"title": "Post-Graduate Certificate in Education",
+				"university": "Leeds Beckett University",
+				"graduating": 2024
+			}
+		]
 	
 	def getKnowledge(self) -> list[str]:
 		return [
