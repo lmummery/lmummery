@@ -34,14 +34,10 @@ class About(Me):
 	
 	def getKnowledge(self) -> list[str]:
 		return [
-			"Python",
-			"JavaScript",
-			"Java",
-			"C#",
-			"HTML",
-			"Pug",
-			"CSS",
-			"SASS",
+			"Python",	"JavaScript",
+			"Java",		"C#",
+			"HTML",		"Pug",
+			"CSS",		"SASS",
 			"SQL"
 		]
 	
