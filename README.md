@@ -42,8 +42,6 @@ class About(Me):
 		return "To bring more Computing to the classroom"
 ```
 
-[![Top Langs](https://lmy-github-stats.vercel.app/api/top-langs/?username=lmummery)](https://github.com/anuraghazra/github-readme-stats)
-
 <!---
 lmummery/lmummery is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
