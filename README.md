@@ -14,7 +14,7 @@ class About(Me):
 			},
 			{
 				"company": "Goldsmiths, University of London",
-				"position": ["Student", "Teaching Assistant"]
+				"position": ["Student", "Teaching Assistant", "Research Assistant"]
 			}
 		]
 	
